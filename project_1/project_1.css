@@ -1,0 +1,72 @@
+/* general styling */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato' , sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: url(/project_1/project_1_image.jpeg) no-repeat center center/cover;
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.header{
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    color: rgba(250, 250, 250, 0.509);
+    background-color: rgba(95, 99, 209, 0.078);
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.main_content{
+    width: 100%;
+    height: 300px; 
+    background-color: #7d8ad400;
+    border-radius: 10px;
+    padding: 50px 40px;
+    box-shadow: 0 0 100px;
+    
+}
+
+.main_content .text_area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.main_content .person{
+    font-size: 1.6rem;
+    color: #363c81;
+    border: solid 2px ;
+    background-color: #ffffff61;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button_area button{
+    background-color: #464f8a9f;
+    color: #ffffffaa;
+    margin: 20px;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_area button:active{
+    background-color: rgb(46, 117, 193);
+}
